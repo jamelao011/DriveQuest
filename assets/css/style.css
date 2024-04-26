@@ -1,0 +1,416 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+}
+
+body{
+    background-color: rgb(236, 237, 242);
+}
+header{
+    display: flex;
+    border-bottom: 2px solid #6D140B;
+    max-height: 7rem;
+}
+
+header .nav-bar {
+    display: flex;
+    justify-content: space-between;
+    padding: 1.5rem 6rem;
+}
+
+.logo-site {
+    display: flex;
+    align-items: center;
+}
+
+.logo-site img {
+    display: flex;
+    object-fit: cover;
+    height: 6rem;
+    width: 6rem;
+}
+
+header .nav-list {
+    display: flex;
+    align-items: center; 
+}
+
+header .nav-list ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    position: absolute;
+    top: 3rem;
+    right: 10rem;
+}
+
+header .nav-item {
+    margin: 0 15px;
+}
+
+header .nav-link {
+    text-decoration: none;
+    font-size: 1.5rem;
+    color: #000;
+    font-weight: 400;
+}
+
+header .nav-link:hover{
+    color: #6D140B;
+    text-decoration: underline #6D140B; 
+}
+
+.login-button button {
+    border-color: #6D140B;
+    background-color: #fff;
+    padding: 8px 15px;
+    border-radius: 5px;
+    position: absolute;
+    top: 2.75rem;
+    right: 5rem;
+}
+
+.login-button button a{
+    text-decoration: none;
+    color: #6D140B;
+}
+
+.login-button:hover button {
+    border-color: #6D140B;
+    background-color: #6D140B;
+}
+
+.login-button:hover button a{
+    color: #fff;
+}
+
+.nome-site h1{
+    text-decoration: none;
+    display: flex;
+    position: absolute;
+    top: 15rem;
+    right: 55rem;
+}
+
+.biggest-circle {
+    display: flex;
+    background-color: #6D140B;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    top: 25rem;
+    right: 78rem;
+}
+
+.medium-circle {
+    display: flex;
+    background-color: #6D140B;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    position: absolute;
+    top: 22rem;
+    right: 86rem;
+}
+
+.smallest-circle {
+    display: flex;
+    background-color: #6D140B;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    position: absolute;
+    top: 32rem;
+    right: 86rem;
+}
+
+hero .nav-bar {
+    width: 35rem;
+    height: 8rem;
+    border-radius: 24px;
+    display: flex;
+    text-align: center;
+    border: 2px solid #6D140B;
+    position: absolute;
+    top: 25rem;
+    right: 40rem;
+}
+
+.hero-retangle {
+    width: 30rem;
+    height: 2rem;
+    display: flex;
+    border-radius: 24px;
+    text-align: left;
+    border: 2px solid #6D140B;
+    position: absolute;
+    top: 5rem;
+    right: 4rem;
+    cursor: text;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-retangle img{
+        max-width: 5%;
+        height: auto;
+        position: absolute;
+        right: 1rem;
+}
+
+hero .nav-list ul{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    position: absolute;
+    top: 3rem;
+    right: 10rem;
+}
+
+hero .nav-item {
+    margin: -20px 15px;
+}
+
+hero .nav-link {
+    text-decoration: none;
+    font-size: 1.5rem;
+    color: #000;
+    font-weight: 400;
+}
+
+hero .nav-link:hover{
+    color: #6D140B;
+    text-decoration: underline #6D140B; 
+}
+
+.volvo {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    position: absolute;
+    top: 35rem;
+    right: 0rem;
+}
+
+.volvoXC90 {
+    width: 45rem;
+    height: 40rem;
+}
+
+h3{
+    text-decoration: underline #6D140B;
+}
+
+.nav-marcas{
+    position: absolute;
+    top: 75rem;
+    right: 85rem;
+}
+
+.marcas{
+   position: absolute;
+   top: 80rem;
+   right: 35rem; 
+}
+
+.logo-marcas{
+   display: flex;
+   gap: 5rem;
+   flex-wrap: wrap;
+}
+
+.logo-volkswagen{
+    background-color: #fff;
+    display: inline-flex;
+    border: 2px solid;
+    border-color: #6D140B;
+    border-radius: 60%;
+    text-align: center;
+    width: 120px;
+    height: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo-volkswagen img{
+    max-width: 50%;
+    height: auto;
+}
+
+.logo-bmw{
+    background-color: #fff;
+    display: inline-flex;
+    border: 2px solid;
+    border-color: #6D140B;
+    border-radius: 60%;
+    text-align: center;
+    width: 120px;
+    height: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo-bmw img{
+    max-width: 50%;
+    height: auto;
+}
+
+.logo-volvo{
+    background-color: #fff;
+    display: inline-flex;
+    border: 2px solid;
+    border-color: #6D140B;
+    border-radius: 60%;
+    text-align: center;
+    width: 120px;
+    height: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo-volvo img{
+    max-width: 50%;
+    height: auto;
+}
+
+.logo-honda{
+    background-color: #fff;
+    display: inline-flex;
+    border: 2px solid;
+    border-color: #6D140B;
+    border-radius: 60%;
+    text-align: center;
+    width: 120px;
+    height: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo-honda img{
+    max-width: 50%;
+    height: auto;
+}
+
+.nav-categorias{
+    position: absolute;
+    top: 105rem;
+    right: 85rem;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 5rem;
+    justify-content: space-evenly;
+    position: absolute;
+    right: 20rem;
+    top: 110rem;
+}
+
+.sedan{
+    text-align: center;
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+}
+
+.suvs{
+    text-align: center;
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+}
+
+.eletricos{
+    text-align: center;
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+}
+
+.container img{
+    height: auto;
+    width: 20rem;
+    border-radius: 24px;
+}
+
+.nav-contato{
+    position: absolute;
+    top: 4rem;
+    right: 85rem;
+}
+
+.brown-section{
+    background-color: #6D140B;
+    display: flex;
+    width: 100%;
+    height: 25rem;
+    position: absolute;
+    top: 130rem;
+    border-radius: 24px;
+}
+
+.container2{
+    display: flex;
+    flex-direction: row;
+    gap: 200px;
+    
+}
+
+.contato{
+    display: flex;
+    flex-direction: column; 
+    gap: 30px; 
+    align-items: center;
+    margin-left: 5rem;
+    margin-top: 10rem; 
+}
+
+p {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.container2 img{
+    height: auto;
+    width: 5rem;
+}
+
+.nav-quem-somos{
+    position: absolute;
+    top: 165rem;
+    right: 85rem;
+}
+
+.quem-somos{
+    position: absolute;
+    top: 175rem;
+    right: 85rem;
+}
+
+.txt-quem-somos{
+    position: absolute;
+    right: 0rem;
+}
+
+.homem-terno{
+    position: absolute;
+    right: -50rem;
+}
+
+footer{
+    position: absolute;
+    top: 230rem;
+    width: 100%;
+    background-color: #6D140B;
+}
